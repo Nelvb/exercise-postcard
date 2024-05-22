@@ -1,0 +1,53 @@
+body {
+	background: black;
+	.poetsen-one-regular {
+		font-family: "Poetsen One";
+		font-weight: 400;
+		font-style: normal;
+	}
+}
+* {
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding: 7px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+	padding-top: 7px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+	text-align: justify;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+.input {
+	border: none;
+	border-bottom: 1px, grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: darkgray;
+	padding: ;
+}
